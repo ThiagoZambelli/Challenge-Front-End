@@ -1,0 +1,23 @@
+/* Fontes do projeto */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+/* Styles do projeto */
+@import url('/styles/header.css');
+@import url('/styles/banner.css');
+
+
+:root{
+    --branco:#ffffff;
+    --cor-header-bg: #4650BD;
+    --bg-gradiente-main: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+
+    --font-header:'Raleway';
+    --font-banner: 'Calistoga', cursive;
+
+    
+}
+
+.flex__container{
+    display: flex;
+}
