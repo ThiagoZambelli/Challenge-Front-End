@@ -5,17 +5,29 @@
 /* Styles do projeto */
 @import url('/styles/header.css');
 @import url('/styles/banner.css');
+@import url('/styles/datas.css');
+@import url('/styles/line-up.css');
+@import url('/styles/footer.css');
 
 
 :root{
     --branco:#ffffff;
-    --cor-header-bg: #4650BD;
-    --bg-gradiente-main: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
+    --cor-header-bg: #184A02;
+    --bg-gradiente-main: linear-gradient(180deg, #6EB948 0%, #88AB76 52.6%, #5F7853 100%);
+
+    --cor-font-header:#88AB76;
+    --cor-click: #88AB76;
 
     --font-header:'Raleway';
     --font-banner: 'Calistoga', cursive;
 
+    --sombra:#444444;
+
     
+}
+
+main{
+    background: var(--bg-gradiente-main);
 }
 
 .flex__container{
