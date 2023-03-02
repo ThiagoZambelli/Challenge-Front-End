@@ -4,26 +4,7 @@
 }
 
 /* A experiencia */
-.bannerExperiencia{
-    position: relative;
-}
+
 .bannerExperiencia img{
     width: 100%;
-}
-.banner__titulo{
-    position: absolute;
-    top: 50%;
-    left: 40%;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;   
-    font-family: var(--font-banner);
-    color: var(#000000);
-
-}
-@media screen and (max-width: 1000px) {
-    .banner__titulo{
-       left: 25%;
-       top: 25%;
-    }
 }

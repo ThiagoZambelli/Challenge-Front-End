@@ -46,3 +46,13 @@
     }
     
 }
+@media screen and (max-width: 400px) {
+    .experiencia img{
+        width: 100%;
+    }
+    .experiencia-descricao{
+        width: 100%;    
+        
+    }
+    
+}
