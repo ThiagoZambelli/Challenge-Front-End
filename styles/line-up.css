@@ -51,7 +51,7 @@
     font-size: 32px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
     .line-up{
         text-align: center;
     }

@@ -67,7 +67,7 @@
     }
     
  }
- @media screen and (max-width: 400px) {    
+ @media screen and (max-width: 420px) {    
     .datas-descricao h2{
         text-align: center;
     }
