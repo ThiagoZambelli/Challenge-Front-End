@@ -1,6 +1,9 @@
 header{
     background-color: var(--cor-header-bg);
 }
+.logo-header:hover{
+    transform: scale(1.02);
+}
 .nav-hamburguer{
     display: none;
 }

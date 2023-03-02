@@ -8,6 +8,9 @@ footer{
     font-weight: 500;
     font-size: 20px;
 }
+.logo-footer{
+    width: 80%;
+}
 .logo-contatos{
     flex-direction: column;
 }

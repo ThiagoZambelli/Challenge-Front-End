@@ -9,7 +9,8 @@
 }
 .datas-img img{
     border-radius: 16px;
-    width: 80%;    
+    width: 80%;
+    box-shadow: 6px 6px 12px var(--sombra);  
 }
 .datas-descricao{
     flex-direction: column;
