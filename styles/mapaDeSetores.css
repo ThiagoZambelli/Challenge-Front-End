@@ -87,3 +87,36 @@
     
     
 }
+@media screen and (max-width: 400px) {
+    
+    .mapa-de-setores{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    .mapa{
+        width: 100%;
+    }
+    .legenda__container{
+        align-items: center;
+        font-size: 20px;
+    }
+    .legenda{
+        width: 40%;
+    }
+    .detalhes__titulo{
+        font-size: 32px;
+    }
+    .detalhe__titulo{
+        font-size: 32px;
+    }
+    .detalhe__texto{
+        font-size: 20px;
+    }
+    .detalhe__imagem{
+        width: 100%;
+    }
+    .detalhe{
+        width: 90%;
+    }
+}
