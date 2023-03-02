@@ -21,3 +21,9 @@
     color: var(#000000);
 
 }
+@media screen and (max-width: 1000px) {
+    .banner__titulo{
+       left: 25%;
+       top: 25%;
+    }
+}
