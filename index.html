@@ -9,13 +9,23 @@
     <title>HOME</title>
 </head>
 <body>
-    <header class="flex__container">
-        <h1><img src="img/Logo.png" alt="Logo Codechella"></h1>
-        <nav class="header-nav">
-            <a href="#">A experiência</a>
-            <a href="#">Mapa de Setores</a>
-            <a href="#">Informações</a>
-            <a href="#">Ingresso</a>
+    <header>
+        <div class="header__principal flex__container">
+            <img class="logo-header" src="img/logo.png" alt="Logo da FenaCode">
+            <nav class="nav-normal">
+                <a href="">A experiência</a>
+                <a href="">Mapa de Setores</a>
+                <a href="">Informações</a>
+                <a href="">Ingresso</a>
+            </nav>
+        </div>
+        <label class="icone-nav-hamburguer" for="botao-nav"><img src="img/menu.png" alt="Icone menu hamburguer"></label>
+        <input type="checkbox" id="botao-nav">
+        <nav class="nav-hamburguer">
+            <a href="">A experiência</a>            
+            <a href="">Mapa de Setores</a>
+            <a href="">Informações</a>
+            <a href="">Ingresso</a>
         </nav>
     </header>
     <main>

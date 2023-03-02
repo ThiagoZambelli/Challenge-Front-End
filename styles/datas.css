@@ -66,3 +66,9 @@
     }
     
  }
+ @media screen and (max-width: 400px) {    
+    .datas-descricao h2{
+        text-align: center;
+    }
+    
+ }
