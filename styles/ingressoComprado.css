@@ -1,0 +1,84 @@
+.bannerIngressoComprado{
+    opacity: 0.8;
+}
+.ingresso__titulo{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;    
+    font-family: var(--font-header);
+    text-align: center;
+    color: var(--branco);
+    padding: 2em 0;
+}
+.ingresso__container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 4rem;
+}
+ .ingresso{
+    background: var(--bg-ingresso);
+    padding: 1rem 2rem;
+    box-shadow: 1px 1px 9px var(--sombra);
+ }
+ .ingresso-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .ingresso-corpo{
+    display: flex;
+    align-items: center;
+    column-gap: 2rem;
+ }
+ .ingresso-QR{
+    width: 30%;
+ }
+ .ingresso-descricao{
+     display: flex;
+     flex-direction: column;
+     row-gap: 1rem;
+}
+.ingresso-nome{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;    
+    font-family: var(--font-header);
+    color: var(--branco);
+}
+.ingresso-info{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;    
+    font-family: var(--font-header);
+    color: var(--branco);
+}
+
+@media screen and (max-width:768px) {
+    .ingresso__titulo{
+        padding: 1em;
+    }
+    .ingresso__container{
+        width: 90%;
+    }
+    .ingresso-corpo{
+        flex-direction: column;
+    }
+    .ingresso-QR{
+        width: 90%;
+        text-align: center;
+    }
+    .ingresso-QR img{
+        width: 50%;
+    }
+    .ingresso-descricao{
+        text-align: center;
+        padding-bottom: 2em;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .ingresso__container{
+        width: 100%;
+    }
+}

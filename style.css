@@ -12,6 +12,7 @@
 @import url('styles/mapaDeSetores.css');
 @import url('styles/informacoes.css');
 @import url('styles/ingressos.css');
+@import url('styles/ingressoComprado.css');
 
 @import url('../styles/import.css');
 
@@ -20,6 +21,8 @@
     --branco:#ffffff;
     --cor-header-bg: #184A02;
     --bg-gradiente-main: linear-gradient(180deg, #6EB948 0%, #88AB76 52.6%, #5F7853 100%);
+
+    --bg-ingresso: linear-gradient(180deg, rgba(110,185,72,1) 19%, rgba(136,171,118,1) 50%, rgba(110,185,72,1) 79%);
 
     --cor-font-header:#88AB76;
     --cor-click: #88AB76;
