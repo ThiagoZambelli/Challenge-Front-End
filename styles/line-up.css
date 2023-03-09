@@ -9,14 +9,16 @@
     font-family: var(--font-banner);
     font-size: 64px;
     font-weight: 400;
-    margin: .5em 0;   
+    margin: .5em 0; 
+    padding: 0.2em;
+    border-bottom: 4px solid var(--branco);  
 }
 .line-up__sabado, .line-up__domingo{
     width: 100%;
     flex-direction: column;
     align-items: center;
     row-gap: .5rem;
-    margin-bottom: 5rem;  
+    margin-bottom: 5rem;    
 }
 .line-up__sabado-titulo, .line-up__domingo-titulo{
     font-family: var(--font-banner);
